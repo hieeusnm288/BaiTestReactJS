@@ -1,0 +1,43 @@
+.header {
+    padding-top: 3rem;
+
+    .z-20 {
+        z-index: 20;
+    }
+
+    .gap-120 {
+        column-gap: 120px;
+    }
+
+    .gap-x-8 {
+        column-gap: 2rem;
+    }
+
+    ul {
+        list-style: none;
+        margin    : 0;
+        padding   : 0;
+
+        a {
+            text-decoration: none;
+            color          : #000;
+
+            &:hover {
+                color: #dd28ee;
+            }
+        }
+    }
+
+    .btn-quaternary {
+        background-color: #9C69E2;
+        font-size       : 1rem;
+        font-weight     : 600;
+        line-height     : 1.5rem;
+        padding-left    : 30px;
+        padding-right   : 30px;
+        height          : 60px;
+        border-radius   : 9999px;
+        width           : 14rem;
+        color           : #fff;
+    }
+}
